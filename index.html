@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/ico" href="dice6.ico">
+    <title>Dice Game</title>
+</head>
+<body>
+    <div id="diceBlock">
+        <img src="dice6.png" alt="Dice" id="diceImg">
+    </div>
+    <div id="startBlock">
+        <ul>
+            <li><button id="startOver">Start Over</button></li>
+            <li><button id="player1Button">Player 1</button></li>
+            <li><button id="player2Button">Player 2</button></li>
+        </ul>
+    </div>
+    <div id="gameBlock">
+        <div id="player1">
+            <div class="playerName">
+                <h1>Player 1</h1>
+            </div>
+            <div id="scoreCard">
+                <p>Your Score: </p>
+                <p id="score1">0</p>
+                <p>Roll amount: </p>
+                <p id="rollCount1">0</p>
+            </div>
+            <div id="winCount">
+                <p>Wins: </p>
+                <p id="p1Wins">0</p>
+            </div>
+            <div class="rollBox">
+                <button id="p1Roll">Roll!</button>
+            </div>
+        </div>
+        <div id="player2">
+            <div class="playerName">
+                <h1>Player 2</h1>
+            </div>
+            <div id="scoreCard">
+                <p>Your Score: </p>
+                <p id="score2">0</p>
+                <p>Roll amount: </p>
+                <p id="rollCount2">0</p>
+            </div>
+            <div id="winCount">
+                <p>Wins: </p>
+                <p id="p2Wins">0</p>
+            </div>
+            <div class="rollBox">
+                <button id="p2Roll">Roll!</button>
+            </div>
+        </div>
+    </div>
+    <script src="./apps.js"></script>
+</body>
+</html>
